@@ -38,11 +38,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&none  &kp N1            &kp N2            &kp N3    &kp N4  &kp N5                                    &kp N6         &kp N7     &kp N8     &kp N9   &kp N0     &none
-&none  &kp Q             &kp W             &kp E     &kp R   &kp T                                     &kp Y          &kp U      &kp I      &kp O    &kp P      &none
-&none  &kp A             &kp S             &kp D     &kp F   &kp G                                     &kp H          &kp J      &kp K      &kp L    &kp COLON  &none
-&none  &mt LEFT_SHIFT Z  &kp X             &kp C     &kp V   &kp B         &kp C_MUTE     &none        &kp N          &kp M      &kp COMMA  &kp DOT  &kp FSLH   &none
-                         &kp LEFT_CONTROL  &kp LALT  &none   &kp LEFT_GUI  &lt 1 SPACE    &lt 3 ENTER  &kp BACKSPACE  &kp RCTRL  &kp RALT   &none
+&none  &kp N1            &kp N2            &kp N3    &kp N4  &kp N5                                    &kp N6         &kp N7  &kp N8     &kp N9   &kp N0     &none
+&none  &kp Q             &kp W             &kp E     &kp R   &kp T                                     &kp Y          &kp U   &kp I      &kp O    &kp P      &none
+&none  &kp A             &kp S             &kp D     &kp F   &kp G                                     &kp H          &kp J   &kp K      &kp L    &kp COLON  &none
+&none  &mt LEFT_SHIFT Z  &kp X             &kp C     &kp V   &kp B         &kp C_MUTE     &none        &kp N          &kp M   &kp COMMA  &kp DOT  &kp FSLH   &none
+                         &kp LEFT_CONTROL  &kp LALT  &mo 3   &kp LEFT_GUI  &lt 1 SPACE    &lt 3 ENTER  &kp BACKSPACE  &mo 4   &kp RALT   &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -51,7 +51,7 @@
         sym_layer {
             bindings = <
 &trans  &none               &trans          &trans            &trans                    &trans                          &none              &trans     &trans         &trans           &trans             &trans
-&trans  &kp LS(LEFT_BRACE)  &kp AMPS        &kp LS(ASTERISK)  &kp LS(LEFT_PARENTHESIS)  &trans                          &kp LEFT_BRACKET   &kp GRAVE  &kp BACKSLASH  &kp RIGHT_ARROW  &kp RIGHT_BRACKET  &trans
+&trans  &kp LS(LEFT_BRACE)  &kp AMPS        &kp LS(ASTERISK)  &kp LS(LEFT_PARENTHESIS)  &kp PLUS                        &kp LEFT_BRACKET   &kp GRAVE  &kp BACKSLASH  &kp RIGHT_ARROW  &kp RIGHT_BRACKET  &trans
 &trans  &kp COLON           &kp LS(DOLLAR)  &kp LS(PERCENT)   &kp LEFT_CONTROL          &kp EQUAL                       &kp DOUBLE_QUOTES  &none      &trans         &trans           &trans             &trans
 &trans  &kp TILDE           &kp EXCL        &kp AT            &kp HASH                  &kp PIPE   &trans       &trans  &kp SINGLE_QUOTE   &trans     &trans         &trans           &trans             &trans
                             &trans          &trans            &kp RIGHT_PARENTHESIS     &kp MINUS  &kp MINUS    &trans  &trans             &trans     &trans         &trans
