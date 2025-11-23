@@ -50,11 +50,11 @@
 
         sym_layer {
             bindings = <
-&trans  &none               &trans          &trans            &trans                    &trans                          &none              &trans          &trans         &trans           &trans             &trans
-&trans  &kp LS(LEFT_BRACE)  &kp AMPS        &kp LS(ASTERISK)  &kp LS(LEFT_PARENTHESIS)  &kp PLUS                        &kp LEFT_BRACKET   &kp GRAVE       &kp BACKSLASH  &kp RIGHT_ARROW  &kp RIGHT_BRACKET  &trans
-&trans  &kp COLON           &kp LS(DOLLAR)  &kp LS(PERCENT)   &kp LEFT_CONTROL          &kp EQUAL                       &kp DOUBLE_QUOTES  &kp UNDERSCORE  &trans         &trans           &trans             &trans
-&trans  &kp TILDE           &kp EXCL        &kp AT            &kp HASH                  &kp PIPE   &trans       &trans  &kp SINGLE_QUOTE   &trans          &trans         &trans           &trans             &trans
-                            &trans          &trans            &kp RIGHT_PARENTHESIS     &kp MINUS  &kp MINUS    &trans  &trans             &trans          &trans         &trans
+&trans  &none               &trans          &trans            &trans                    &trans                                    &none              &trans          &trans         &trans           &trans             &trans
+&trans  &kp LS(LEFT_BRACE)  &kp AMPS        &kp LS(ASTERISK)  &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_BRACE)                       &kp LEFT_BRACKET   &kp GRAVE       &kp BACKSLASH  &kp RIGHT_ARROW  &kp RIGHT_BRACKET  &trans
+&trans  &kp COLON           &kp LS(DOLLAR)  &kp LS(PERCENT)   &kp LEFT_CONTROL          &kp EQUAL                                 &kp DOUBLE_QUOTES  &kp UNDERSCORE  &trans         &trans           &trans             &trans
+&trans  &kp TILDE           &kp EXCL        &kp AT            &kp HASH                  &kp PIPE             &trans       &trans  &kp SINGLE_QUOTE   &kp PLUS        &trans         &trans           &trans             &trans
+                            &trans          &trans            &kp RIGHT_PARENTHESIS     &kp MINUS            &kp MINUS    &trans  &trans             &trans          &trans         &trans
             >;
         };
 
