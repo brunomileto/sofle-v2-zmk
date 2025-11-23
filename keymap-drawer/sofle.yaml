@@ -53,12 +53,12 @@ layers:
   - ''
   - LEFT CONTROL
   - LALT
-  - ''
+  - nav
   - LEFT GUI
   - {t: SPACE, h: sym}
   - {t: ENTER, h: nav}
   - BACKSPACE
-  - RCTRL
+  - fun
   - RALT
   - ''
   sym:
@@ -79,7 +79,7 @@ layers:
   - '&'
   - Sft+*
   - Sft+(
-  - {t: ▽, type: trans}
+  - +
   - '['
   - '`'
   - \
@@ -236,10 +236,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: DELETE, type: held}
+  - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -302,6 +302,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
