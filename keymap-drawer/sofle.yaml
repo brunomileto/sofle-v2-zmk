@@ -55,13 +55,13 @@ layers:
   - LALT
   - ''
   - LEFT GUI
-  - {t: SPACE, h: num}
+  - {t: SPACE, h: symbols}
   - {t: ENTER, h: nav}
   - BACKSPACE
   - RCTRL
   - RALT
   - ''
-  num:
+  symbols:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -76,8 +76,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '{'
+  - '}'
   - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -88,8 +88,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - +
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - (
+  - )
   - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
