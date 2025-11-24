@@ -60,7 +60,7 @@ layers:
   - BACKSPACE
   - fun
   - RALT
-  - ''
+  - RIGHT CONTROL
   sym:
   - {t: ▽, type: trans}
   - ''
