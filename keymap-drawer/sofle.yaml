@@ -53,8 +53,8 @@ layers:
   - ''
   - LEFT CONTROL
   - LALT
-  - nav
   - LEFT GUI
+  - lower
   - {t: SPACE, h: sym}
   - {t: ENTER, h: nav}
   - BACKSPACE
@@ -176,7 +176,7 @@ layers:
   - '&studio_unlock'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -236,10 +236,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DELETE
+  - {t: ▽, type: trans}
+  - {t: DELETE, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
