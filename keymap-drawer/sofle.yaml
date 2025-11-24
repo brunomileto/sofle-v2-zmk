@@ -209,7 +209,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT SHIFT
+  - LEFT CONTROL
   - LEFT
   - DOWN
   - RIGHT
@@ -220,8 +220,8 @@ layers:
   - Gui+V
   - Gui+X
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT CONTROL
+  - ''
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
