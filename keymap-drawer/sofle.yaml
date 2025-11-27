@@ -222,7 +222,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT GUI
-  - {t: ▽, type: trans}
+  - Ctl+LEFT ALT
   - Gui+Alt+ESCAPE
   - Gui+SPACE
   - {t: ▽, type: trans}
