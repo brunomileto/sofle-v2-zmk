@@ -117,7 +117,7 @@
 &trans  &trans        &trans             &trans              &trans            &trans                              &trans      &trans         &trans        &trans          &trans         &trans
 &trans  &kp ESC       &kp LS(LG(GRAVE))  &kp LC(LS(TAB))     &kp LG(GRAVE)     &trans                              &kp LG(Z)   &kp LG(C)      &kp LG(V)     &kp LG(Z)       &kp LS(LG(Z))  &trans
 &trans  &kp TAB       &kp LEFT_ALT       &kp LEFT_SHIFT      &kp LEFT_CONTROL  &kp LEFT_ALT                        &kp LEFT    &kp DOWN       &kp UP_ARROW  &kp DOWN_ARROW  &trans         &trans
-&trans  &kp LEFT_GUI  &trans             &kp LG(LA(ESCAPE))  &kp LG(SPACE)     &trans        &trans    &trans      &kp LG(UP)  &kp PAGE_DOWN  &kp PG_UP     &kp END         &trans         &trans
+&trans  &kp LEFT_GUI  &kp LC(LEFT_ALT)   &kp LG(LA(ESCAPE))  &kp LG(SPACE)     &trans        &trans    &trans      &kp LG(UP)  &kp PAGE_DOWN  &kp PG_UP     &kp END         &trans         &trans
                       &trans             &trans              &trans            &trans        &trans    &kp DELETE  &trans      &trans         &trans        &trans
             >;
 
