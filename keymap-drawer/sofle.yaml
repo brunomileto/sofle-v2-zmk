@@ -52,7 +52,7 @@ layers:
   - /
   - {t: ▽, type: trans}
   - {t: LEFT CONTROL, h: Sft+Gui+X}
-  - Ctl+R
+  - Sft+ENTER
   - LEFT GUI
   - nav
   - {t: SPACE, h: sym}
