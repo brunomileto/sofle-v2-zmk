@@ -51,7 +51,7 @@ layers:
   - .
   - /
   - {t: ▽, type: trans}
-  - {t: LEFT CONTROL, h: Sft+Gui+X}
+  - Alt+LCTRL
   - Sft+ENTER
   - LEFT GUI
   - nav
